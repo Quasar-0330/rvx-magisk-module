@@ -1,17 +1,46 @@
-        
 [
   {
-    "patchName": "Custom package name",
+    "patchName": "Custom Shorts action buttons",
     "options": [
       {
-        "key": "PackageNameYouTube",
-        "value": "yt.rvx.noname.exe"
+        "key": "IconType",
+        "value": "Outline"
+      }
+    ]
+  },
+  {
+    "patchName": "Overlay buttons",
+    "options": [
+      {
+        "key": "IconType",
+        "value": "Thin"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations for YouTube",
+    "options": [
+      {
+        "key": "SelectedTranslations",
+        "value": "ja-rJP"
       },
       {
-        "key": "PackageNameYouTubeMusic",
-        "value": "ytm.rvx.noname.exe"
+        "key": "SelectedStringResources",
+        "value": "ja"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations for YouTube Music",
+    "options": [
+      {
+        "key": "SelectedTranslations",
+        "value": "ja-rJP"
+      },
+      {
+        "key": "SelectedStringResources",
+        "value": "ja"
       }
     ]
   }
 ]
-        
