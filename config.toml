@@ -7,12 +7,12 @@ rv-brand = "inotia00 ReVanced"
 patches-version = "v4.16.1"
 integrations-version = "v1.16.1"
 
-[YouTube]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-build-mode = "module"
-version = "19.44.37"
-included-patches = "'Force hide player buttons background' 'Hide Shorts dimming' 'MaterialYou'"
-excluded-patches = "'Alternative thumbnails' 'Bypass image region restrictions' 'Change player flyout menu toggles' 'Change start page' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom double tap length' 'Disable haptic feedback' 'Enable gradient loading screen' 'Hook YouTube Music actions' 'Hook download actions' 'Theme'"
+#[YouTube]
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+#build-mode = "module"
+#version = "19.44.37"
+#included-patches = "'Force hide player buttons background' 'Hide Shorts dimming' 'MaterialYou'"
+#excluded-patches = "'Alternative thumbnails' 'Bypass image region restrictions' 'Change player flyout menu toggles' 'Change start page' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom double tap length' 'Disable haptic feedback' 'Enable gradient loading screen' 'Hook YouTube Music actions' 'Hook download actions' 'Theme'"
 
 #[Music]
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
@@ -21,3 +21,13 @@ excluded-patches = "'Alternative thumbnails' 'Bypass image region restrictions' 
 #version = "7.16.53"
 #included-patches = "'Hide overlay filter' 'Hide player overlay filter'"
 #excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Enable landscape mode' 'Restore old style library shelf'"
+
+[X]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+patches-source = "crimera/piko"
+integrations-source = "crimera/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "piko ReVanced"
+patches-version = "v1.46.1-dev.1"
+integrations-version = "v1.35.0-dev.1"
+build-mode = "apk"
