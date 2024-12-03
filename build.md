@@ -1,4 +1,4 @@
-X: 10.67.0-release.0  
+X: 10.68.2-release.0  
 
 Install [MicroG](https://github.com/ReVanced/GmsCore/releases) to be able to use non-root YouTube or YouTube-Music.  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store from updating YouTube and YouTube-Music.  
